@@ -1,0 +1,104 @@
+/* Global Styles */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Arial', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #00e676;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #1c1c1c;
+}
+
+.navbar .nav-link {
+    color: #e0e0e0;
+}
+
+.navbar .nav-link:hover, .navbar .nav-link.active {
+    color: #00e676;
+}
+
+/* Hero Section Styles */
+.display-5 {
+    color: #007bff;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.form-label {
+    color: #b0b0b0;
+}
+
+.form-control {
+    background-color: #222;
+    border: 1px solid #444;
+    color: #e0e0e0;
+}
+
+.form-control:focus {
+    border-color: #00e676;
+    box-shadow: 0 0 0 0.25rem rgba(0, 255, 0, 0.5);
+}
+
+.btn-primary {
+    background-color: #00e676;
+    border-color: #00e676;
+}
+
+.btn-primary:hover {
+    background-color: #00b25b;
+    border-color: #00b25b;
+}
+
+.list-group-item {
+    background-color: #222;
+    border: 1px solid #444;
+    color: #e0e0e0;
+}
+
+.list-group-item:hover {
+    background-color: #333;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #c82333;
+}
+
+/* Section Styling */
+.container {
+    padding-top: 50px;
+}
+
+footer {
+    background-color: #1c1c1c;
+    color: #e0e0e0;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #00e676;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #00b25b;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .display-5 {
+        font-size: 2.5rem;
+    }
+}
